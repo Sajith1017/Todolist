@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body::webkit-scrollbar{
+        width:25px;
+    }
+    body::-webkit-scrollbar-track
+    {border: 2px solid black}
+    
+    body::-webkit-scrollbar-thumb{background-color: aqua;}
+        </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="bookcontainer">
+            <form action="">
+                <div class="bookconatainer">
+                    <table>
+                        <tr>
+                            <th>Name</th>
+                            <td><input type="text" id="box1"></td>
+                        </tr>
+                        <tr>
+                            <th>Age</th>
+                            <td><input type="number" id="box2"></td>
+                        </tr>
+                        <tr>
+                            <th>Gender</th>
+                            <td><select id="box3">
+                                    <option>Male</option>
+                                    <option>Female</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Course</th>
+                            <td><select id="box5">
+                                    <option>HTML</option>
+                                    <option>CSS</option>
+                                    <option>JAVASCRIPT</option>
+                                </select></td>
+                        </tr>
+                        <tr>
+                            <th>E-mail</th>
+                            <td><input type="email" id="box6"></td>
+                        </tr>
+                        <tr>
+                            <th colspan="2"><button id="update">Save</button></th>
+                        </tr>
+                    </table>
+                </div><br>
+            </form>
+
+
+            <div class="home">
+
+
+
+
+            </div>
+        </div>
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
